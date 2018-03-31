@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013760FC10BA3B2FFC0FBC2E /* Pods_TLJSCoreBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8B1896E0BACDA631861DE1 /* Pods_TLJSCoreBridge.framework */; };
+		7E13F5C2206CCBE6007264BD /* NSDate+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F596206CCBE6007264BD /* NSDate+TLExtension.m */; };
+		7E13F5C3206CCBE6007264BD /* NSDateFormatter+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F598206CCBE6007264BD /* NSDateFormatter+TLExtension.m */; };
+		7E13F5C4206CCBE6007264BD /* NSObject+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F59A206CCBE6007264BD /* NSObject+TLExtension.m */; };
+		7E13F5C5206CCBE6007264BD /* UIBarButtonItem+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F59C206CCBE6007264BD /* UIBarButtonItem+TLExtension.m */; };
+		7E13F5C6206CCBE6007264BD /* UIImage+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F59E206CCBE6007264BD /* UIImage+TLExtension.m */; };
+		7E13F5C7206CCBE6007264BD /* UIView+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5A0206CCBE6007264BD /* UIView+TLExtension.m */; };
+		7E13F5C8206CCBE6007264BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5A9206CCBE6007264BD /* AppDelegate.m */; };
+		7E13F5C9206CCBE6007264BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E13F5AA206CCBE6007264BD /* Assets.xcassets */; };
+		7E13F5CA206CCBE6007264BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E13F5AB206CCBE6007264BD /* LaunchScreen.storyboard */; };
+		7E13F5CC206CCBE6007264BD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E13F5AF206CCBE6007264BD /* Info.plist */; };
+		7E13F5CD206CCBE6007264BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5B0206CCBE6007264BD /* main.m */; };
+		7E13F5CE206CCBE6007264BD /* TLAdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5B4206CCBE6007264BD /* TLAdvancedViewController.m */; };
+		7E13F5CF206CCBE6007264BD /* TLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5B7206CCBE6007264BD /* TLNavigationController.m */; };
+		7E13F5D0206CCBE6007264BD /* TLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5BB206CCBE6007264BD /* TLHomeViewController.m */; };
+		7E13F5D1206CCBE6007264BD /* TLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5BE206CCBE6007264BD /* TLProfileViewController.m */; };
+		7E13F5D2206CCBE6007264BD /* TLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5C1206CCBE6007264BD /* TLTestViewController.m */; };
+		7E13F5F1206CE07C007264BD /* TLJSCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5F0206CE07C007264BD /* TLJSCWebViewController.m */; };
+		7E13F624206CE0E9007264BD /* jscorebridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 7E13F5F5206CE0E9007264BD /* jscorebridge.js */; };
+		7E13F625206CE0E9007264BD /* JSCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5F8206CE0E9007264BD /* JSCBridge.m */; };
+		7E13F626206CE0E9007264BD /* JSCBridgeDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5FB206CE0E9007264BD /* JSCBridgeDelegateImpl.m */; };
+		7E13F627206CE0E9007264BD /* JSCInvokedPluginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F5FE206CE0E9007264BD /* JSCInvokedPluginCommand.m */; };
+		7E13F628206CE0E9007264BD /* JSCObjcMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F601206CE0E9007264BD /* JSCObjcMsgSend.m */; };
+		7E13F629206CE0E9007264BD /* JSCPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F603206CE0E9007264BD /* JSCPlugin.m */; };
+		7E13F62A206CE0E9007264BD /* JSCPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F605206CE0E9007264BD /* JSCPluginResult.m */; };
+		7E13F62B206CE0E9007264BD /* JSCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F607206CE0E9007264BD /* JSCWebViewController.m */; };
+		7E13F62D206CE0E9007264BD /* JSCConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F60C206CE0E9007264BD /* JSCConfigParser.m */; };
+		7E13F62E206CE0E9007264BD /* JSCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F60E206CE0E9007264BD /* JSCTimer.m */; };
+		7E13F62F206CE0E9007264BD /* JSCWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F610206CE0E9007264BD /* JSCWhitelist.m */; };
+		7E13F630206CE0E9007264BD /* NSDictionary+JSCPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F612206CE0E9007264BD /* NSDictionary+JSCPreferences.m */; };
+		7E13F631206CE0E9007264BD /* JSCConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F614206CE0E9007264BD /* JSCConfig.m */; };
+		7E13F632206CE0E9007264BD /* JSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F616206CE0E9007264BD /* JSCManager.m */; };
+		7E13F633206CE0E9007264BD /* JSCPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F618206CE0E9007264BD /* JSCPrint.m */; };
+		7E13F634206CE0E9007264BD /* CDVCommandDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F61B206CE0E9007264BD /* CDVCommandDelegateImpl.m */; };
+		7E13F635206CE0E9007264BD /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F61D206CE0E9007264BD /* CDVInvokedUrlCommand.m */; };
+		7E13F636206CE0E9007264BD /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F61F206CE0E9007264BD /* CDVPlugin.m */; };
+		7E13F637206CE0E9007264BD /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F621206CE0E9007264BD /* CDVPluginResult.m */; };
+		7E13F638206CE0E9007264BD /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F623206CE0E9007264BD /* CDVViewController.m */; };
+		7E13F642206CE0F8007264BD /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7E13F63A206CE0F8007264BD /* config.xml */; };
+		7E13F648206CE108007264BD /* web in Resources */ = {isa = PBXBuildFile; fileRef = 7E13F647206CE108007264BD /* web */; };
+		7E13F64E206DC263007264BD /* JSCBasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F64D206DC263007264BD /* JSCBasePlugin.m */; };
+		7E13F651206DC2FB007264BD /* JSCTestPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E13F650206DC2FB007264BD /* JSCTestPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B646D877279A61FA3AEB35 /* Pods-TLJSCoreBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSCoreBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSCoreBridge/Pods-TLJSCoreBridge.release.xcconfig"; sourceTree = "<group>"; };
+		0E8B1896E0BACDA631861DE1 /* Pods_TLJSCoreBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLJSCoreBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		366526DBFEFD6A172D00AB7F /* Pods-TLJSCoreBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSCoreBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSCoreBridge/Pods-TLJSCoreBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		7E13F571206CCB1E007264BD /* TLJSCoreBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLJSCoreBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E13F595206CCBE6007264BD /* NSDate+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TLExtension.h"; sourceTree = "<group>"; };
+		7E13F596206CCBE6007264BD /* NSDate+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TLExtension.m"; sourceTree = "<group>"; };
+		7E13F597206CCBE6007264BD /* NSDateFormatter+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+TLExtension.h"; sourceTree = "<group>"; };
+		7E13F598206CCBE6007264BD /* NSDateFormatter+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+TLExtension.m"; sourceTree = "<group>"; };
+		7E13F599206CCBE6007264BD /* NSObject+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TLExtension.h"; sourceTree = "<group>"; };
+		7E13F59A206CCBE6007264BD /* NSObject+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TLExtension.m"; sourceTree = "<group>"; };
+		7E13F59B206CCBE6007264BD /* UIBarButtonItem+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TLExtension.h"; sourceTree = "<group>"; };
+		7E13F59C206CCBE6007264BD /* UIBarButtonItem+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TLExtension.m"; sourceTree = "<group>"; };
+		7E13F59D206CCBE6007264BD /* UIImage+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TLExtension.h"; sourceTree = "<group>"; };
+		7E13F59E206CCBE6007264BD /* UIImage+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TLExtension.m"; sourceTree = "<group>"; };
+		7E13F59F206CCBE6007264BD /* UIView+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TLExtension.h"; sourceTree = "<group>"; };
+		7E13F5A0206CCBE6007264BD /* UIView+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TLExtension.m"; sourceTree = "<group>"; };
+		7E13F5A3206CCBE6007264BD /* TLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLConst.h; sourceTree = "<group>"; };
+		7E13F5A4206CCBE6007264BD /* TLHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHeaderFile.h; sourceTree = "<group>"; };
+		7E13F5A5206CCBE6007264BD /* TLJSCoreBridge-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLJSCoreBridge-Prefix.pch"; sourceTree = "<group>"; };
+		7E13F5A6206CCBE6007264BD /* TLMacroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMacroTool.h; sourceTree = "<group>"; };
+		7E13F5A8206CCBE6007264BD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E13F5A9206CCBE6007264BD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E13F5AA206CCBE6007264BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E13F5AC206CCBE6007264BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E13F5AF206CCBE6007264BD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E13F5B0206CCBE6007264BD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E13F5B3206CCBE6007264BD /* TLAdvancedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAdvancedViewController.h; sourceTree = "<group>"; };
+		7E13F5B4206CCBE6007264BD /* TLAdvancedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAdvancedViewController.m; sourceTree = "<group>"; };
+		7E13F5B6206CCBE6007264BD /* TLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLNavigationController.h; sourceTree = "<group>"; };
+		7E13F5B7206CCBE6007264BD /* TLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNavigationController.m; sourceTree = "<group>"; };
+		7E13F5BA206CCBE6007264BD /* TLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHomeViewController.h; sourceTree = "<group>"; };
+		7E13F5BB206CCBE6007264BD /* TLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHomeViewController.m; sourceTree = "<group>"; };
+		7E13F5BD206CCBE6007264BD /* TLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLProfileViewController.h; sourceTree = "<group>"; };
+		7E13F5BE206CCBE6007264BD /* TLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLProfileViewController.m; sourceTree = "<group>"; };
+		7E13F5C0206CCBE6007264BD /* TLTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTestViewController.h; sourceTree = "<group>"; };
+		7E13F5C1206CCBE6007264BD /* TLTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTestViewController.m; sourceTree = "<group>"; };
+		7E13F5EF206CE07C007264BD /* TLJSCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLJSCWebViewController.h; sourceTree = "<group>"; };
+		7E13F5F0206CE07C007264BD /* TLJSCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLJSCWebViewController.m; sourceTree = "<group>"; };
+		7E13F5F5206CE0E9007264BD /* jscorebridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jscorebridge.js; sourceTree = "<group>"; };
+		7E13F5F6206CE0E9007264BD /* JSCAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCAvailability.h; sourceTree = "<group>"; };
+		7E13F5F7206CE0E9007264BD /* JSCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCBridge.h; sourceTree = "<group>"; };
+		7E13F5F8206CE0E9007264BD /* JSCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCBridge.m; sourceTree = "<group>"; };
+		7E13F5F9206CE0E9007264BD /* JSCBridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCBridgeDelegate.h; sourceTree = "<group>"; };
+		7E13F5FA206CE0E9007264BD /* JSCBridgeDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCBridgeDelegateImpl.h; sourceTree = "<group>"; };
+		7E13F5FB206CE0E9007264BD /* JSCBridgeDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCBridgeDelegateImpl.m; sourceTree = "<group>"; };
+		7E13F5FC206CE0E9007264BD /* JSCDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCDebug.h; sourceTree = "<group>"; };
+		7E13F5FD206CE0E9007264BD /* JSCInvokedPluginCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCInvokedPluginCommand.h; sourceTree = "<group>"; };
+		7E13F5FE206CE0E9007264BD /* JSCInvokedPluginCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCInvokedPluginCommand.m; sourceTree = "<group>"; };
+		7E13F5FF206CE0E9007264BD /* JSCManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCManagerProtocol.h; sourceTree = "<group>"; };
+		7E13F600206CE0E9007264BD /* JSCObjcMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCObjcMsgSend.h; sourceTree = "<group>"; };
+		7E13F601206CE0E9007264BD /* JSCObjcMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCObjcMsgSend.m; sourceTree = "<group>"; };
+		7E13F602206CE0E9007264BD /* JSCPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCPlugin.h; sourceTree = "<group>"; };
+		7E13F603206CE0E9007264BD /* JSCPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCPlugin.m; sourceTree = "<group>"; };
+		7E13F604206CE0E9007264BD /* JSCPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCPluginResult.h; sourceTree = "<group>"; };
+		7E13F605206CE0E9007264BD /* JSCPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCPluginResult.m; sourceTree = "<group>"; };
+		7E13F606206CE0E9007264BD /* JSCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCWebViewController.h; sourceTree = "<group>"; };
+		7E13F607206CE0E9007264BD /* JSCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCWebViewController.m; sourceTree = "<group>"; };
+		7E13F609206CE0E9007264BD /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		7E13F60B206CE0E9007264BD /* JSCConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCConfigParser.h; sourceTree = "<group>"; };
+		7E13F60C206CE0E9007264BD /* JSCConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCConfigParser.m; sourceTree = "<group>"; };
+		7E13F60D206CE0E9007264BD /* JSCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCTimer.h; sourceTree = "<group>"; };
+		7E13F60E206CE0E9007264BD /* JSCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCTimer.m; sourceTree = "<group>"; };
+		7E13F60F206CE0E9007264BD /* JSCWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCWhitelist.h; sourceTree = "<group>"; };
+		7E13F610206CE0E9007264BD /* JSCWhitelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCWhitelist.m; sourceTree = "<group>"; };
+		7E13F611206CE0E9007264BD /* NSDictionary+JSCPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSCPreferences.h"; sourceTree = "<group>"; };
+		7E13F612206CE0E9007264BD /* NSDictionary+JSCPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSCPreferences.m"; sourceTree = "<group>"; };
+		7E13F613206CE0E9007264BD /* JSCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCConfig.h; sourceTree = "<group>"; };
+		7E13F614206CE0E9007264BD /* JSCConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCConfig.m; sourceTree = "<group>"; };
+		7E13F615206CE0E9007264BD /* JSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCManager.h; sourceTree = "<group>"; };
+		7E13F616206CE0E9007264BD /* JSCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCManager.m; sourceTree = "<group>"; };
+		7E13F617206CE0E9007264BD /* JSCPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCPrint.h; sourceTree = "<group>"; };
+		7E13F618206CE0E9007264BD /* JSCPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCPrint.m; sourceTree = "<group>"; };
+		7E13F61A206CE0E9007264BD /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
+		7E13F61B206CE0E9007264BD /* CDVCommandDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandDelegateImpl.m; sourceTree = "<group>"; };
+		7E13F61C206CE0E9007264BD /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		7E13F61D206CE0E9007264BD /* CDVInvokedUrlCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVInvokedUrlCommand.m; sourceTree = "<group>"; };
+		7E13F61E206CE0E9007264BD /* CDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPlugin.h; sourceTree = "<group>"; };
+		7E13F61F206CE0E9007264BD /* CDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPlugin.m; sourceTree = "<group>"; };
+		7E13F620206CE0E9007264BD /* CDVPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPluginResult.h; sourceTree = "<group>"; };
+		7E13F621206CE0E9007264BD /* CDVPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPluginResult.m; sourceTree = "<group>"; };
+		7E13F622206CE0E9007264BD /* CDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
+		7E13F623206CE0E9007264BD /* CDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
+		7E13F63A206CE0F8007264BD /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		7E13F647206CE108007264BD /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+		7E13F64C206DC263007264BD /* JSCBasePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCBasePlugin.h; sourceTree = "<group>"; };
+		7E13F64D206DC263007264BD /* JSCBasePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCBasePlugin.m; sourceTree = "<group>"; };
+		7E13F64F206DC2FB007264BD /* JSCTestPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCTestPlugin.h; sourceTree = "<group>"; };
+		7E13F650206DC2FB007264BD /* JSCTestPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCTestPlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E13F56E206CCB1E007264BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013760FC10BA3B2FFC0FBC2E /* Pods_TLJSCoreBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082A72BBCBF4B9BC721A2188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8B1896E0BACDA631861DE1 /* Pods_TLJSCoreBridge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		245319A3EF0C43C418E7F25A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366526DBFEFD6A172D00AB7F /* Pods-TLJSCoreBridge.debug.xcconfig */,
+				07B646D877279A61FA3AEB35 /* Pods-TLJSCoreBridge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E13F568206CCB1E007264BD = {
+			isa = PBXGroup;
+			children = (
+				7E13F573206CCB1E007264BD /* TLJSCoreBridge */,
+				7E13F572206CCB1E007264BD /* Products */,
+				245319A3EF0C43C418E7F25A /* Pods */,
+				082A72BBCBF4B9BC721A2188 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E13F572206CCB1E007264BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F571206CCB1E007264BD /* TLJSCoreBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E13F573206CCB1E007264BD /* TLJSCoreBridge */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5A7206CCBE6007264BD /* Application */,
+				7E13F5B1206CCBE6007264BD /* Modules */,
+				7E13F5A1206CCBE6007264BD /* ThirdParty */,
+				7E13F594206CCBE6007264BD /* TLCategory */,
+				7E13F5A2206CCBE6007264BD /* TLPrefix */,
+			);
+			path = TLJSCoreBridge;
+			sourceTree = "<group>";
+		};
+		7E13F594206CCBE6007264BD /* TLCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F595206CCBE6007264BD /* NSDate+TLExtension.h */,
+				7E13F596206CCBE6007264BD /* NSDate+TLExtension.m */,
+				7E13F597206CCBE6007264BD /* NSDateFormatter+TLExtension.h */,
+				7E13F598206CCBE6007264BD /* NSDateFormatter+TLExtension.m */,
+				7E13F599206CCBE6007264BD /* NSObject+TLExtension.h */,
+				7E13F59A206CCBE6007264BD /* NSObject+TLExtension.m */,
+				7E13F59B206CCBE6007264BD /* UIBarButtonItem+TLExtension.h */,
+				7E13F59C206CCBE6007264BD /* UIBarButtonItem+TLExtension.m */,
+				7E13F59D206CCBE6007264BD /* UIImage+TLExtension.h */,
+				7E13F59E206CCBE6007264BD /* UIImage+TLExtension.m */,
+				7E13F59F206CCBE6007264BD /* UIView+TLExtension.h */,
+				7E13F5A0206CCBE6007264BD /* UIView+TLExtension.m */,
+			);
+			path = TLCategory;
+			sourceTree = "<group>";
+		};
+		7E13F5A1206CCBE6007264BD /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F64B206DC249007264BD /* TLPlugin */,
+				7E13F639206CE0F8007264BD /* Staging */,
+				7E13F619206CE0E9007264BD /* JSCCordova */,
+				7E13F5F2206CE0E9007264BD /* JSCoreBridge */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		7E13F5A2206CCBE6007264BD /* TLPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5A3206CCBE6007264BD /* TLConst.h */,
+				7E13F5A4206CCBE6007264BD /* TLHeaderFile.h */,
+				7E13F5A5206CCBE6007264BD /* TLJSCoreBridge-Prefix.pch */,
+				7E13F5A6206CCBE6007264BD /* TLMacroTool.h */,
+			);
+			path = TLPrefix;
+			sourceTree = "<group>";
+		};
+		7E13F5A7206CCBE6007264BD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5A8206CCBE6007264BD /* AppDelegate.h */,
+				7E13F5A9206CCBE6007264BD /* AppDelegate.m */,
+				7E13F5AA206CCBE6007264BD /* Assets.xcassets */,
+				7E13F5AB206CCBE6007264BD /* LaunchScreen.storyboard */,
+				7E13F5AF206CCBE6007264BD /* Info.plist */,
+				7E13F5B0206CCBE6007264BD /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7E13F5B1206CCBE6007264BD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5EE206CE07C007264BD /* JSCWeb */,
+				7E13F5B2206CCBE6007264BD /* Advanced */,
+				7E13F5B5206CCBE6007264BD /* Base */,
+				7E13F5B8206CCBE6007264BD /* Home */,
+				7E13F5BC206CCBE6007264BD /* Profile */,
+				7E13F5BF206CCBE6007264BD /* Test */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7E13F5B2206CCBE6007264BD /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5B3206CCBE6007264BD /* TLAdvancedViewController.h */,
+				7E13F5B4206CCBE6007264BD /* TLAdvancedViewController.m */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		7E13F5B5206CCBE6007264BD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5B6206CCBE6007264BD /* TLNavigationController.h */,
+				7E13F5B7206CCBE6007264BD /* TLNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7E13F5B8206CCBE6007264BD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5B9206CCBE6007264BD /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7E13F5B9206CCBE6007264BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5BA206CCBE6007264BD /* TLHomeViewController.h */,
+				7E13F5BB206CCBE6007264BD /* TLHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E13F5BC206CCBE6007264BD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5BD206CCBE6007264BD /* TLProfileViewController.h */,
+				7E13F5BE206CCBE6007264BD /* TLProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7E13F5BF206CCBE6007264BD /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5C0206CCBE6007264BD /* TLTestViewController.h */,
+				7E13F5C1206CCBE6007264BD /* TLTestViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		7E13F5EE206CE07C007264BD /* JSCWeb */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5EF206CE07C007264BD /* TLJSCWebViewController.h */,
+				7E13F5F0206CE07C007264BD /* TLJSCWebViewController.m */,
+			);
+			path = JSCWeb;
+			sourceTree = "<group>";
+		};
+		7E13F5F2206CE0E9007264BD /* JSCoreBridge */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5F3206CE0E9007264BD /* JSCoreBridgeLite */,
+				7E13F608206CE0E9007264BD /* Optional */,
+			);
+			path = JSCoreBridge;
+			sourceTree = "<group>";
+		};
+		7E13F5F3206CE0E9007264BD /* JSCoreBridgeLite */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5F4206CE0E9007264BD /* JS */,
+				7E13F5F6206CE0E9007264BD /* JSCAvailability.h */,
+				7E13F5F7206CE0E9007264BD /* JSCBridge.h */,
+				7E13F5F8206CE0E9007264BD /* JSCBridge.m */,
+				7E13F5F9206CE0E9007264BD /* JSCBridgeDelegate.h */,
+				7E13F5FA206CE0E9007264BD /* JSCBridgeDelegateImpl.h */,
+				7E13F5FB206CE0E9007264BD /* JSCBridgeDelegateImpl.m */,
+				7E13F5FC206CE0E9007264BD /* JSCDebug.h */,
+				7E13F5FD206CE0E9007264BD /* JSCInvokedPluginCommand.h */,
+				7E13F5FE206CE0E9007264BD /* JSCInvokedPluginCommand.m */,
+				7E13F5FF206CE0E9007264BD /* JSCManagerProtocol.h */,
+				7E13F600206CE0E9007264BD /* JSCObjcMsgSend.h */,
+				7E13F601206CE0E9007264BD /* JSCObjcMsgSend.m */,
+				7E13F602206CE0E9007264BD /* JSCPlugin.h */,
+				7E13F603206CE0E9007264BD /* JSCPlugin.m */,
+				7E13F604206CE0E9007264BD /* JSCPluginResult.h */,
+				7E13F605206CE0E9007264BD /* JSCPluginResult.m */,
+				7E13F606206CE0E9007264BD /* JSCWebViewController.h */,
+				7E13F607206CE0E9007264BD /* JSCWebViewController.m */,
+			);
+			path = JSCoreBridgeLite;
+			sourceTree = "<group>";
+		};
+		7E13F5F4206CE0E9007264BD /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F5F5206CE0E9007264BD /* jscorebridge.js */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		7E13F608206CE0E9007264BD /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F609206CE0E9007264BD /* config.xml */,
+				7E13F60A206CE0E9007264BD /* CordovaSource */,
+				7E13F613206CE0E9007264BD /* JSCConfig.h */,
+				7E13F614206CE0E9007264BD /* JSCConfig.m */,
+				7E13F615206CE0E9007264BD /* JSCManager.h */,
+				7E13F616206CE0E9007264BD /* JSCManager.m */,
+				7E13F617206CE0E9007264BD /* JSCPrint.h */,
+				7E13F618206CE0E9007264BD /* JSCPrint.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		7E13F60A206CE0E9007264BD /* CordovaSource */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F60B206CE0E9007264BD /* JSCConfigParser.h */,
+				7E13F60C206CE0E9007264BD /* JSCConfigParser.m */,
+				7E13F60D206CE0E9007264BD /* JSCTimer.h */,
+				7E13F60E206CE0E9007264BD /* JSCTimer.m */,
+				7E13F60F206CE0E9007264BD /* JSCWhitelist.h */,
+				7E13F610206CE0E9007264BD /* JSCWhitelist.m */,
+				7E13F611206CE0E9007264BD /* NSDictionary+JSCPreferences.h */,
+				7E13F612206CE0E9007264BD /* NSDictionary+JSCPreferences.m */,
+			);
+			path = CordovaSource;
+			sourceTree = "<group>";
+		};
+		7E13F619206CE0E9007264BD /* JSCCordova */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F61A206CE0E9007264BD /* CDVCommandDelegateImpl.h */,
+				7E13F61B206CE0E9007264BD /* CDVCommandDelegateImpl.m */,
+				7E13F61C206CE0E9007264BD /* CDVInvokedUrlCommand.h */,
+				7E13F61D206CE0E9007264BD /* CDVInvokedUrlCommand.m */,
+				7E13F61E206CE0E9007264BD /* CDVPlugin.h */,
+				7E13F61F206CE0E9007264BD /* CDVPlugin.m */,
+				7E13F620206CE0E9007264BD /* CDVPluginResult.h */,
+				7E13F621206CE0E9007264BD /* CDVPluginResult.m */,
+				7E13F622206CE0E9007264BD /* CDVViewController.h */,
+				7E13F623206CE0E9007264BD /* CDVViewController.m */,
+			);
+			path = JSCCordova;
+			sourceTree = "<group>";
+		};
+		7E13F639206CE0F8007264BD /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F63A206CE0F8007264BD /* config.xml */,
+				7E13F647206CE108007264BD /* web */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		7E13F64B206DC249007264BD /* TLPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				7E13F64C206DC263007264BD /* JSCBasePlugin.h */,
+				7E13F64D206DC263007264BD /* JSCBasePlugin.m */,
+				7E13F64F206DC2FB007264BD /* JSCTestPlugin.h */,
+				7E13F650206DC2FB007264BD /* JSCTestPlugin.m */,
+			);
+			path = TLPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E13F570206CCB1E007264BD /* TLJSCoreBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E13F587206CCB1E007264BD /* Build configuration list for PBXNativeTarget "TLJSCoreBridge" */;
+			buildPhases = (
+				A1383D5BDDE9AEE3595A7350 /* [CP] Check Pods Manifest.lock */,
+				7E13F56D206CCB1E007264BD /* Sources */,
+				7E13F56E206CCB1E007264BD /* Frameworks */,
+				7E13F56F206CCB1E007264BD /* Resources */,
+				24744D35231021A6C9CDFCCA /* [CP] Embed Pods Frameworks */,
+				14C2C20E98556D1B4B31B475 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLJSCoreBridge;
+			productName = TLJSCoreBridge;
+			productReference = 7E13F571206CCB1E007264BD /* TLJSCoreBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E13F569206CCB1E007264BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7E13F570206CCB1E007264BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E13F56C206CCB1E007264BD /* Build configuration list for PBXProject "TLJSCoreBridge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E13F568206CCB1E007264BD;
+			productRefGroup = 7E13F572206CCB1E007264BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E13F570206CCB1E007264BD /* TLJSCoreBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E13F56F206CCB1E007264BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E13F5CC206CCBE6007264BD /* Info.plist in Resources */,
+				7E13F624206CE0E9007264BD /* jscorebridge.js in Resources */,
+				7E13F5C9206CCBE6007264BD /* Assets.xcassets in Resources */,
+				7E13F648206CE108007264BD /* web in Resources */,
+				7E13F642206CE0F8007264BD /* config.xml in Resources */,
+				7E13F5CA206CCBE6007264BD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14C2C20E98556D1B4B31B475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLJSCoreBridge/Pods-TLJSCoreBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24744D35231021A6C9CDFCCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TLJSCoreBridge/Pods-TLJSCoreBridge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLJSCoreBridge/Pods-TLJSCoreBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1383D5BDDE9AEE3595A7350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLJSCoreBridge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E13F56D206CCB1E007264BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E13F5D1206CCBE6007264BD /* TLProfileViewController.m in Sources */,
+				7E13F5C4206CCBE6007264BD /* NSObject+TLExtension.m in Sources */,
+				7E13F5CF206CCBE6007264BD /* TLNavigationController.m in Sources */,
+				7E13F625206CE0E9007264BD /* JSCBridge.m in Sources */,
+				7E13F638206CE0E9007264BD /* CDVViewController.m in Sources */,
+				7E13F5C2206CCBE6007264BD /* NSDate+TLExtension.m in Sources */,
+				7E13F5C7206CCBE6007264BD /* UIView+TLExtension.m in Sources */,
+				7E13F633206CE0E9007264BD /* JSCPrint.m in Sources */,
+				7E13F636206CE0E9007264BD /* CDVPlugin.m in Sources */,
+				7E13F5C6206CCBE6007264BD /* UIImage+TLExtension.m in Sources */,
+				7E13F5F1206CE07C007264BD /* TLJSCWebViewController.m in Sources */,
+				7E13F5D0206CCBE6007264BD /* TLHomeViewController.m in Sources */,
+				7E13F630206CE0E9007264BD /* NSDictionary+JSCPreferences.m in Sources */,
+				7E13F627206CE0E9007264BD /* JSCInvokedPluginCommand.m in Sources */,
+				7E13F634206CE0E9007264BD /* CDVCommandDelegateImpl.m in Sources */,
+				7E13F5C5206CCBE6007264BD /* UIBarButtonItem+TLExtension.m in Sources */,
+				7E13F635206CE0E9007264BD /* CDVInvokedUrlCommand.m in Sources */,
+				7E13F62B206CE0E9007264BD /* JSCWebViewController.m in Sources */,
+				7E13F5CE206CCBE6007264BD /* TLAdvancedViewController.m in Sources */,
+				7E13F62D206CE0E9007264BD /* JSCConfigParser.m in Sources */,
+				7E13F5C3206CCBE6007264BD /* NSDateFormatter+TLExtension.m in Sources */,
+				7E13F626206CE0E9007264BD /* JSCBridgeDelegateImpl.m in Sources */,
+				7E13F62A206CE0E9007264BD /* JSCPluginResult.m in Sources */,
+				7E13F629206CE0E9007264BD /* JSCPlugin.m in Sources */,
+				7E13F637206CE0E9007264BD /* CDVPluginResult.m in Sources */,
+				7E13F651206DC2FB007264BD /* JSCTestPlugin.m in Sources */,
+				7E13F628206CE0E9007264BD /* JSCObjcMsgSend.m in Sources */,
+				7E13F5D2206CCBE6007264BD /* TLTestViewController.m in Sources */,
+				7E13F5CD206CCBE6007264BD /* main.m in Sources */,
+				7E13F64E206DC263007264BD /* JSCBasePlugin.m in Sources */,
+				7E13F631206CE0E9007264BD /* JSCConfig.m in Sources */,
+				7E13F5C8206CCBE6007264BD /* AppDelegate.m in Sources */,
+				7E13F632206CE0E9007264BD /* JSCManager.m in Sources */,
+				7E13F62F206CE0E9007264BD /* JSCWhitelist.m in Sources */,
+				7E13F62E206CE0E9007264BD /* JSCTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E13F5AB206CCBE6007264BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E13F5AC206CCBE6007264BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E13F585206CCB1E007264BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E13F586206CCB1E007264BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E13F588206CCB1E007264BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366526DBFEFD6A172D00AB7F /* Pods-TLJSCoreBridge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TLJSCoreBridge/TLPrefix/TLJSCoreBridge-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TLJSCoreBridge/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.licj.TLJSCoreBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E13F589206CCB1E007264BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B646D877279A61FA3AEB35 /* Pods-TLJSCoreBridge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TLJSCoreBridge/TLPrefix/TLJSCoreBridge-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TLJSCoreBridge/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.licj.TLJSCoreBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E13F56C206CCB1E007264BD /* Build configuration list for PBXProject "TLJSCoreBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E13F585206CCB1E007264BD /* Debug */,
+				7E13F586206CCB1E007264BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E13F587206CCB1E007264BD /* Build configuration list for PBXNativeTarget "TLJSCoreBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E13F588206CCB1E007264BD /* Debug */,
+				7E13F589206CCB1E007264BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E13F569206CCB1E007264BD /* Project object */;
+}
