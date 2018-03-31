@@ -102,10 +102,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JSCoreBridge/JSCoreBridge.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JSCoreBridge/JSCoreBridge.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi

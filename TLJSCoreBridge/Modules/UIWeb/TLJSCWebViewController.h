@@ -6,7 +6,7 @@
 //  Copyright © 2018年 lichuanjun. All rights reserved.
 //
 
-#import "JSCWebViewController.h"
+#import <JSCoreBridge/JSCWebViewController.h>
 
 @interface TLJSCWebViewController : JSCWebViewController
 

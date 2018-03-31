@@ -1,0 +1,6 @@
+framework module JSCoreBridge {
+  umbrella header "JSCoreBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
