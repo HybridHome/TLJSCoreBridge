@@ -43,9 +43,9 @@
     // 关闭自动加载页面
     self.shouldAutoLoadURL = NO;
     //可以指定config.xml的路径为沙盒目录或者Bundle的子目录下
-//    self.configFilePath = @"";
+    //    self.configFilePath = @"";
     //可以关闭config配置选项，JSCoreBridge将不再使用config.xml配置项；当使用JSCoreBridgeLite时，config无效
-//    self.configEnabled = NO;
+    //    self.configEnabled = NO;
     
     // 调用loadURL方法手动加载网页
     [self loadURL:_URL];
@@ -134,3 +134,4 @@
 }
 
 @end
+
